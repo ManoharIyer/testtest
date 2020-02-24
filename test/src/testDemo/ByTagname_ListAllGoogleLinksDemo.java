@@ -18,7 +18,7 @@ public class ByTagname_ListAllGoogleLinksDemo {
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://www.google.co.in");
 		driver.manage().window().maximize();
-		
+		System.out.println("test");
 		List<WebElement> Links=driver.findElements(By.tagName("a"));
 		
 		System.out.println(Links.size());
